@@ -1,0 +1,448 @@
+/* Homepage Disgn Css */
+#home_page {
+    .popular-categories {
+        padding-bottom: 22px;
+
+        .item {
+            margin-bottom: 30px;
+            @media only screen and (max-width:767px){
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                padding-bottom: 0px;
+            }
+
+            p {
+                margin-bottom: 0px;
+            }
+        }
+
+        h2 {
+            margin: 40px auto 27px;
+            font-size: 30px;
+            text-align: center;
+            color: #202020;
+            font-family: 'Open Sans', sans-serif;
+            @media only screen and (max-width: 767px){
+                font-size: 24px;
+                margin:30px auto 10px;
+            }
+        }
+    }
+
+    .banner-secondary {
+        @media only screen and (max-width: 767px) {
+            padding: 30px 0px;
+        }
+
+        h2 {
+            font-size: 54px;
+            font-weight: 300;
+            line-height: 59px;
+            text-align: center;
+            color: #ffffff;
+            font-family: 'Open Sans', sans-serif;
+
+            @media only screen and (max-width: 767px) {
+                font-size: 30px;
+                line-height: 44px;
+            }
+        }
+
+        p {
+            font-size: 22px !important;
+            line-height: 27px;
+            font-weight: 300;
+            text-align: justify;
+            color: #ffffff;
+            font-family: 'Open Sans', sans-serif;
+
+            @media only screen and (max-width: 767px) {
+                font-size: 18px !important;
+                line-height: 24px;
+            }
+        }
+    }
+    .section{
+        .funnel-section {
+            padding: 53px 0px 60px;
+
+            @media only screen and (max-width: 767px) {
+                padding: 30px 0px 30px;
+                
+            }
+        }
+    }
+
+    .main .section .funnel {
+        margin-bottom: 68px;
+    }
+
+    .recent-jobs {
+        .item h3 {
+            padding-bottom: 5px;
+        }
+
+        .section-footer button {
+            margin: 30px auto;
+            padding: 18px 38px 18px;
+            border-radius: 8px;
+            font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+            border-width: 2px;
+            font-size: 14px;
+            line-height: 1.07;
+            background-color: transparent;
+            border: 2px solid #fb236a !important;
+        }
+
+        .row {
+            margin-bottom: 0px;
+        }
+
+        .item {
+            margin-bottom: 30px;
+        }
+
+        .section{
+            &-title {
+                margin-bottom: 49px;
+                
+                @media only screen and (max-width: 767px) {
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #888888;
+                    margin-bottom: 0px;
+                }
+
+            }
+            &-footer{
+                margin-top: 30px;
+            }
+
+        }
+        .row .col-sm-12.col-md-4 {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+    }
+
+    .recent-candidates .row .col-sm-12.col-md-4 {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .item {
+        .action {
+
+            span,
+            button {
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+
+        h3 {
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+
+    .recent-jobs h1,
+    .recent-candidates h1,
+    .item p {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .assistant-agency {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+        @media only screen and (max-width: 767px) {
+            padding: 30px 0px 30px !important;
+        }
+
+        .section{
+
+            &-title {
+                margin-top: 0px;
+                margin-bottom: 30px;
+                @media only screen and (max-width:767px){
+                    margin-bottom: 20px;
+                    padding:0 15px;
+                }
+                h2 {
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+            &-footer{
+                padding:0 15px;
+            }
+        }
+    }
+
+
+    .assistant-agency .section-footer button {
+        height: auto;
+        padding: 15px 30px;
+        min-height: 82px;
+        font-family: 'Open Sans', sans-serif;
+        max-width: 750px;
+        width: 100%;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 32px;
+
+        @media only screen and (max-width: 767px) {
+            min-height: 60px;
+            font-size: 22px;
+            padding: 9px 30px;
+            font-weight: normal;
+            max-width: unset;
+            width: auto;
+            
+        }
+    }
+
+    .benefit {
+        padding-left: 0px;
+        padding-right: 0px;
+        @media only screen and (max-width: 767px) {
+            padding: 30px 0px;
+        }
+
+        .section{
+
+            &-title {
+                margin-top: 0px;
+                margin-bottom: 0px;
+
+                h2 {
+                    font-weight: normal;
+                    font-size: 29px;
+                    line-height: 38px;
+                    color: #fff;
+                    margin-bottom: 15px;
+                    font-family: "Open Sans", sans-serif;
+                    @media only screen and (max-width:767px){
+                        font-size: 24px;
+                        line-height: 34px;
+                    }
+                }
+            }
+
+            &-body {
+
+                p {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: normal;
+                    font-size: 16px !important;
+                    line-height: 28px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+
+    .recent-candidates {
+        padding: 43px 0px 80px;
+        @media only screen and (max-width:767px){
+          padding:30px 0  30px;
+      }
+      .section-title {
+        margin-bottom: 49px;
+        @media only screen and (max-width:767px){
+            margin-bottom: 30px;
+            padding:0 15px;
+        }
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 45px;
+            color: #202020;
+            line-height: normal;
+            padding-bottom: 6px;
+            @media only screen and (max-width:767px){
+                font-size: 24px;
+                padding-bottom:0;
+            }
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #888888;
+            margin-bottom: 0px;
+        }
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .section-title p {
+        text-align: center;
+    }
+
+    .section-footer {
+        @media only screen and (max-width:767px){
+            margin-top: 10px;
+        }
+        button{
+            padding: 16px 38px 16px;
+            border: 2px solid #FB236A;
+            border-radius: 8px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 15px;
+            color: #FB236A;
+            background-color: transparent;
+            @media only screen and (max-width:767px){
+                padding:14px 25px 14px;
+            }
+        }
+    }
+}
+
+.seekers-recruiters {
+    .container-fluid {
+        padding-left: 0px !important;
+    }
+
+    .seekers {
+        max-width: 376px;
+        width: 100%;
+        margin: 30px auto 49px;
+        padding: 0px;
+        @media only screen and (max-width:980px){
+            padding: 0 15px;
+        }
+        @media only screen and (max-width:767px){
+            padding:0 15px;
+            max-width: 100%;
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+            min-height: 225px;
+            height: auto;
+            margin-bottom: 0px;
+            font-size: 15px !important;
+
+            @media only screen and (max-width: 767px) {
+                font-size: 14px !important;
+                min-height: auto;
+            }
+        }
+
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 48px;
+            color: #fff;
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            @media only screen and (max-width: 767px) {
+                font-size: 32px;
+                line-height: 42px;
+            }
+        }
+
+        button {
+            margin-top: 40px;
+            font-family: 'Open Sans', sans-serif;
+            @media only screen and (max-width: 767px) {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+.works-how {
+    @media only screen and (max-width: 767px) {
+        padding: 30px 0px;
+    }
+    .section-title {
+        margin-top: 85px;
+        @media only screen and (max-width:767px){
+            margin-top: 0;
+        }
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 29px;
+            color: #888888;
+        }
+
+        h2 {
+            margin-bottom: 28px;
+            line-height: normal;
+            padding-bottom: 0px;
+            @media only screen and (max-width:767px){
+                margin-bottom: 12px;
+            }
+        }
+    }
+    .container{
+        margin-top: 0px;
+    }
+    .section{
+        &-body{
+
+            .job-info {
+                margin-top: 53px;
+                @media only screen and (max-width: 767px) {
+                    margin-top: 30px;
+                }
+                p {
+                    font-family: 'Open Sans', sans-serif;
+                    margin-bottom: 0px;
+                    font-size: 17px !important;
+                    line-height: 29px;
+
+                    @media only screen and (max-width: 767px){
+                        font-size: 14px !important;
+                        line-height: 24px;
+                        margin-top: 40px;
+                    }
+                }
+
+                ul li {
+                    font-family: 'Open Sans', sans-serif;
+                    margin-bottom: 0px;
+                    list-style-type: disc;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 29px;
+
+                    @media only screen and (max-width: 767px){
+                        font-size: 14px !important;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.seekers-recruiters .row>div img {
+    left: 0px;
+    top: 0px;
+}
+}
+.section{
+    .recent-jobs{
+        padding: 43px 0px 60px;
+
+        @media only screen and (max-width: 767px) {
+            padding: 30px 0px 30px;
+        }
+    }
+}

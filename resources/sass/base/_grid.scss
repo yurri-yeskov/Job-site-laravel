@@ -1,0 +1,11 @@
+#page_wrap{
+	.row{
+		margin-left:-15px !important;
+		margin-right: -15px !important;
+	}
+	.container-fluid{
+		.row{
+			margin: 0 !important;
+		}
+	}
+}

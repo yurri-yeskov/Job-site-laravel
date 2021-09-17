@@ -1,0 +1,209 @@
+﻿/* company profile page css start */
+.text-logo-preview {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 13px;
+    /* border-radius: 8px; */
+}
+
+.company-logo-preview {
+    border: 1px solid #ccc;
+    padding: 4px;
+    width: 100%;
+}
+
+#company_logo {
+    display: none;
+}
+
+.upload-logo-label {
+    text-align: center;
+    padding: 13px;
+    background: #1967d221;
+    border-radius: 8px;
+    color: #1967d2;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.upload-logo-ins {
+    font-size: 14px;
+    line-height: 16px;
+}
+.image-hide {
+    display: none;
+}
+.pac-target-input {
+    margin-bottom: 30px;
+}
+
+#map-submit {
+    border-radius: 8px;
+}
+
+.dashboard-title {
+    font-weight: 400;
+    font-size: 30px;
+}
+.cmo-prfoile-h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000;
+}
+
+.cmp-heading-2 .cmo-prfoile-h5 {
+    margin: 20px;
+}
+
+.cmp-progress-bar .progress {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 22px;
+}
+.cmp-progress-bar .progress-bar {
+    border-radius: 50px;
+    background-color: #3ec0a5;
+}
+
+.form-comapny-profile,
+.form-comapny-update-post,
+.form-comapny-post-display,
+.form-comapny-post-create {
+    margin-top: 6.37%;
+    box-shadow: 0px 10px 20px rgba(18, 38, 63, 0.0313726);
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 50px;
+}
+.form-comapny-update-post,
+.form-comapny-post-display,
+.form-comapny-post-create {
+    margin-top: 0px;
+}
+.form-comapny-profile .select2-selection--multiple,
+.form-comapny-update-post .select2-selection--multiple,
+.form-comapny-post-create .select2-selection--multiple {
+    height: auto !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    color: #3a3b45 !important;
+}
+.form-row label {
+    font-size: 13px;
+    color: #000;
+}
+
+.form-comapny-profile .submit-button {
+    background-color: #556ee6 !important;
+}
+/* company profile page css end */
+
+/*** Employer dash post list */
+
+.post-list-row {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.post-list-post-button {
+    float: right;
+    border: none;
+    background: #34c38f;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 4px;
+}
+
+.table-post-management {
+    width: 100%;
+    margin-top: 20px !important;
+}
+.table-post-management thead {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.table-post-management thead th {
+    border-bottom: 3px solid #eff2f7 !important;
+    border-top: 3px solid #eff2f7;
+    border-radius: 0;
+}
+
+.table-post-management tbody tr {
+    background-color: #fff !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.table-post-management .post-list-u-name {
+    text-transform: uppercase;
+    content: attr(data-letters);
+    display: inline-block;
+    font-size: 1em;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    border-radius: 50%;
+    background: #556ee6;
+    vertical-align: middle;
+    margin-right: 1em;
+    color: white;
+ 
+}
+
+.card-post-menagement .card-title {
+    font-size: 15px;
+    color: #495057;
+    padding: 15px 15px;
+    margin: 0;
+}
+.card-post-menagement .card-body {
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-post-menagement .btn {
+    width: 160px;
+    font-size: 14px;
+    background: #34c38f !important;
+    border-color: #34c38f !important;
+    float: right !important;
+}
+/* edit form css */
+.form-comapny-update-post h4,
+.form-comapny-post-display h4,
+.form-comapny-post-create h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.form-comapny-update-post h5,
+.form-comapny-post-display h5,
+.form-comapny-post-create h5 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+.form-comapny-update-post label,
+.form-comapny-post-display label,
+.form-comapny-post-create label {
+    font-weight: 400;
+    font-size: 13px;
+    color: #495057;
+}
+.form-comapny-post-display .row label {
+    width: 100%;
+}
+
+.emplyoer-dash-content{
+    min-height: calc(100vh - 164px);
+}
+/*** Employer dash post list css end */

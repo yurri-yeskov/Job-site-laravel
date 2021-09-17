@@ -1,0 +1,147 @@
+.how_work{
+		padding-top:30px;
+		@media only screen and (max-width:767px){
+			padding-top:0;
+		}
+		.row{
+			margin: 0 !important;
+			&.rotate-images{
+				flex-wrap: nowrap;
+			}
+			.rotate{
+				&.rotate-1{
+					img{
+						max-width: 140% !important;
+						width: 140% !important;
+					}
+				}
+				&.rotate-2{
+					img{
+						max-width: 145% !important;
+						width: 145% !important;
+					}
+				}
+				&.rotate-3{
+					img{
+						max-width: 145% !important;
+						width: 145% !important;
+					}
+				}
+				&.rotate-4{
+					position:relative;
+					img{
+						max-width: 120% !important;
+						width: 120% !important;
+						position: absolute;
+						right: 0;
+					}
+				}
+			}
+		}
+		.container{
+			&.text_box{
+				@media only screen and (max-width:1199px){
+					padding-left:15px;
+					padding-right:15px;
+				}
+				p{
+					font-size: 16px;
+					line-height: 28px;
+					color: #000000;
+					font-weight: 400;
+					margin-bottom: 36px;
+					font-family:"Open Sans", sans-serif;
+					@media only screen and (max-width:767px){
+						font-size: 14px;
+						margin-bottom: 20px;
+					}
+					&.faq-heading{
+						margin-bottom: 2px;
+						@media only screen and (max-width:767px){
+							line-height: 21px;
+						}
+					}
+				}
+				ul{
+					margin-bottom: 36px;
+					@media only screen and (max-width:767px){
+						margin-bottom: 24px;
+					}
+					li{
+						font-size: 16px;
+						line-height: 28px;
+						color: #000000;
+						display: flex;
+						@media only screen and (max-width:767px){
+							font-size: 14px;
+						}
+						svg{
+							margin-right: 10px;
+							margin-top: 8px;
+							@media only screen and (max-width:767px){
+								margin-right: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		.content_bg{
+			padding-bottom:65px;
+			padding-top: 280px;
+			@media only screen and (max-width:1366px){
+				padding-top:200px;
+			}
+			@media only screen and (max-width:991px){
+				padding-top:80px;
+				margin-top: -180px;
+				padding-bottom: 50px;
+			}
+			@media only screen and (max-width:767px){
+				padding-top: 40px;
+				margin-top: -300px;
+				padding-bottom: 20px;
+			}
+		}
+		h1{
+			font-size: 46px;
+			line-height: 48px;
+			color: #000000;
+			font-weight: 400;
+			text-transform: uppercase;
+			padding: 0;
+			font-family:"Open Sans", sans-serif;
+			margin-bottom: 50px;
+			@media only screen and (max-width:991px){
+				font-size: 36px;
+				line-height: 42px;
+				margin-bottom: 40px;
+			}
+			@media only screen and (max-width:767px){
+				font-size: 28px !important;
+				line-height: 35px !important;
+				margin-bottom: 20px;
+				margin-top: 20px;
+			}
+			br{
+				@media only screen and (max-width:767px){
+					display: none;
+				}
+
+			}
+		}
+		.common-funnel{
+			margin-top: 110px;
+			@media only screen and (max-width:991px){
+				margin-top:60px;
+			}
+			@media only screen and (max-width:767px){
+				margin-top: 35px;
+				margin-bottom: 40px;
+			}
+			.funnel{
+				margin:53px 0 68px;
+			}
+		}
+}

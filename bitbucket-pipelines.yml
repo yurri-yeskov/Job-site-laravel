@@ -1,0 +1,101 @@
+# This is a sample build configuration for PHP.
+# Check our guides at https://confluence.atlassian.com/x/e8YWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+
+# Specify a docker image from Docker Hub as your build environment.
+# All of your pipeline scripts will be executed within this docker image.
+
+image: php:7.3-fpm
+
+# All of your Pipelines will be defined in the `pipelines` section.
+# You can have any number of Pipelines, but they must all have unique
+# names. The default Pipeline is simply named `default`.
+
+pipelines:
+  default:
+  # Each Pipeline consists of one or more steps which each execute
+  # sequentially in separate docker containers.
+  #
+  # name: optional name for this step
+  # script: the commands you wish to execute in this step, in order
+    - step:
+        script:
+        # Your Pipeline automatically contains a copy of your code in its working
+        # directory; however, the docker image may not be preconfigured with all
+        # of the PHP/Laravel extensions your project requires. You may need to install
+        # them yourself, as shown below.
+          - apt-get update && apt-get install -qy git curl libmcrypt-dev default-mysql-client zip unzip  libzip-dev
+          - yes | pecl install mcrypt-1.0.2 zip
+          - docker-php-ext-install pdo_mysql zip
+          - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+          - composer config github-oauth.github.com $GITHUB_PERSONAL_ACCESS_TOKEN          
+          - composer clearcache
+          - composer -vvv install
+          - composer update
+          # Here we create link between the .env.pipelines file and the .env file
+          # so that our database can retreieve all the variables inside .env.pipelines
+          - ln -f -s .env.pipelines .env
+
+          # Start up the php server so that we can test against it
+          - php artisan migrate --force
+          - php artisan serve &
+
+          # Give the server some time to start
+          - sleep 5
+          - pwd
+          - ls -la ./vendor; ls -la ./vendor/bin; ls -la ./vendor/bin/phpunit
+          # One common use case of Pipelines is running Unit Tests on your codebase.
+          # In PHP, this is commonly done with PHPUnit.
+          # - php ./vendor/bin/phpunit
+          - curl -vk http://localhost:8000
+        artifacts:
+          - vendor/**
+          - extras/**
+          - packages/**
+          - storage/**
+          - public/**
+        services:
+          - mysql
+          - redis
+    - step:
+        name: Deploy artifacts using SCP to PROD
+        deployment: production
+        script:
+          - tar -cvzf $(dirname "$PWD")/code.tar.gz .
+          - mv $(dirname "$PWD")/code.tar.gz code.tar.gz
+          - pipe: atlassian/ssh-run:0.3.0
+            variables:
+              SSH_USER: $USER
+              SERVER: $SERVER
+              SSH_KEY: $MY_SSH_KEY
+              COMMAND: 'cd /home/virtualadmin/public_html/; rm -rf {,.[!.],..?}*;'
+
+          - pipe: atlassian/scp-deploy:0.3.3
+            variables:
+              USER: $USER
+              SERVER: $SERVER
+              REMOTE_PATH: '/home/virtualadmin/public_html'
+              LOCAL_PATH: '${BITBUCKET_CLONE_DIR}/code.tar.gz'
+              DEBUG: 'true'
+          - pipe: atlassian/ssh-run:0.3.0
+            variables:
+              SSH_USER: $USER
+              SERVER: $SERVER
+              SSH_KEY: $MY_SSH_KEY
+              COMMAND: 'cd /home/virtualadmin/public_html/; tar -xvzf code.tar.gz; rm -rf code.tar.gz; php artisan optimize:clear;mv .env1 .env'
+
+
+# You might want to create and access a service (like a database) as part
+# of your Pipeline workflow. You can do so by defining it as a service here.
+definitions:
+  services:
+    mysql:
+      image: mysql:5.7
+      environment:
+        MYSQL_DATABASE: 'homestead'
+        MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
+        MYSQL_USER: 'homestead'
+        MYSQL_PASSWORD: 'secret'
+    redis:
+      image: redis

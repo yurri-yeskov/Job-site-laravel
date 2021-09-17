@@ -1,0 +1,43 @@
+/*Login popup design css */
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    border: 2px solid #dfdfdf;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 0px 30px;
+
+    &-lg{
+        min-height: 54px;
+    }
+    &-md{
+        min-height: 47px;
+        @media only screen and (max-width:767px){
+            min-height: 40px;
+        }
+    }
+    &-pink{
+        border-color: #fb236a;
+        color: #fb236a;
+    }
+    &-green{
+        background:#26AE61 !important;
+        border-color:#26AE61 !important;
+        color:#fff !important;
+    }
+
+}
+
+.btn-custom {
+    font-weight: 700;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.btn-user-type.btn-selcted:hover {
+    color: #fff;
+}

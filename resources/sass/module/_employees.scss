@@ -1,0 +1,182 @@
+.employers_page{
+	@media only screen and (max-width: 767px){
+		padding-top:0;
+	}
+	.virtual_logo{
+		margin-bottom: 42px;
+		@media only screen and (max-width: 767px){
+			margin-bottom: 0px;
+		}
+	}
+	.virtual_assistant{
+		padding-right:43px;
+		@media only screen and (max-width: 767px){
+			padding-right:15px;
+		}
+	}
+	.determine-text{
+		@media only screen and (max-width: 767px){
+			margin-top: 30px;
+		}
+	}
+	.virtual_image{
+		@media only screen and (max-width:1199px){
+			padding-right:15px !important;
+		}
+		@media only screen and (max-width:767px){
+			padding-left:15px !important;
+		}
+	}
+	.common-parastyle{
+		p{
+			text-align: justify;
+			margin-bottom: 36px;
+			@media only screen and (max-width:767px){
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.funnel{
+		margin: 58px 0 58px;
+			@media only screen and (max-width:767px){
+				margin: 20px 0 30px !important;
+			}
+	}
+	.recent-candidates{
+		padding:27px 0 76px;
+			@media only screen and (max-width:767px){
+				padding:27px 0 40px;
+			}
+			.row{
+				margin: 0;
+			}
+	}
+	.virtual-price{
+		.pricing_comp{
+			padding:56px 100px 0px;
+			@media only screen and (max-width:1199px){
+				padding:56px 0 0;
+			}
+			@media only screen and (max-width:767px){
+				padding:30px 0 0 !important;
+			}
+			h2{
+				font-size: 46px;
+				line-height: 48px;
+				letter-spacing: 2px;
+				font-weight: 400;
+				color: #000000;
+				padding: 0;
+				margin-bottom: 42px;
+				text-transform:uppercase;
+				@media only screen and (max-width:1199px){
+					font-size: 36px;
+					line-height: 42px;
+					margin-bottom: 30px;
+				}
+				@media only screen and (max-width:767px){
+					font-size: 28px;
+					line-height: 35px;
+					margin-bottom: 10px;
+				}
+				br{
+					@media only screen and (max-width:767px){
+						display: none;
+					}
+
+				}
+			}
+			.virtual_logo{
+				margin-bottom: 62px;
+				@media only screen and (max-width:1199px){
+					margin-bottom: 42px;
+				}
+				@media only screen and (max-width:767px){
+					padding-top:0;
+                    margin-bottom: 0;
+				}
+				img{
+					margin-bottom: 0;
+				}
+			}
+			p{
+				font-size: 16px;
+				line-height: 36px;
+				font-weight: 400;
+				color: #000000;
+				text-align: justify;
+				text-transform: capitalize;
+				margin-bottom: 32px;
+				@media only screen and (max-width:767px){
+					font-size: 14px;
+					line-height: 30px;
+					margin-bottom: 20px;
+				}
+			}
+			ul{
+				margin-bottom: 40px;
+				@media only screen and (max-width:767px){
+                   margin-bottom: 20px;
+				}
+				li{
+					width: 100%;
+					display: flex;
+					font-size: 16px;
+					line-height: normal;
+					color: #000000;
+					align-items: center;
+					margin-bottom: 15px;
+					text-align: left;
+				@media only screen and (max-width:767px){
+					margin-bottom: 12px;
+					font-size: 14px;
+				}
+					svg{
+						margin-right: 13px;
+				@media only screen and (max-width:767px){
+					min-width: 12px;
+					min-height: 12px;
+					margin-right: 8px;
+				}
+					}
+				}
+			}
+			.container{
+				@media only screen and (max-width:991px){
+					padding:0;
+				}
+				.col-sm-12 {
+				@media only screen and (max-width:767px){
+                   padding:0;
+				}
+
+				}
+			}
+		}
+	}
+	.whats-happens{
+		padding-top: 25px;
+		@media only screen and (max-width:767px){
+			padding-top:15px;
+		}
+		.assistant-agency{
+		@media only screen and (max-width:767px){
+			padding:20px 0 !important;
+		}
+
+		}
+	}
+} 
+
+
+.employers_page{
+		.pricing_comp{
+			.container{
+				.row{
+					@media only screen and (max-width:991px){
+						margin: 0 !important;
+					}
+				}
+			}
+		}
+}

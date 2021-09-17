@@ -1,0 +1,29 @@
+// variables
+@import "new_variables";
+
+// Base Files
+@import "base/layout";
+@import "base/grid";
+@import "base/header";
+@import "base/footer";
+
+// Components Files
+@import "components/button";
+@import "components/section";
+@import "components/banner";
+@import "components/card";
+@import "components/pagination";
+
+// Modules Files
+@import "module/home";
+@import "module/about";
+@import "module/common-section.scss";
+@import "module/blog-list";
+@import "module/blog-page";
+@import "module/how_work";
+@import "module/employees";
+@import "module/company-profile";
+@import "module/workers-profile";
+@import "module/worker";
+@import "module/all-worker";
+

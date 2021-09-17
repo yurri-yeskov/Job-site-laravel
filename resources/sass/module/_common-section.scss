@@ -1,0 +1,249 @@
+
+// Common Section
+.about_business {
+    .improve-business {
+        padding: 50px 0px 30px;
+        @media only screen and (max-width:767px){
+            padding:30px 0 30px;
+        }
+    }
+
+    .section{
+        &-body{
+            .title {
+                margin-bottom: 14px;
+                h2 {
+                    text-align: left;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    font-size: 39px;
+                    line-height: 45px;
+                    @media only screen and (max-width:767px){
+                        font-size: 28px;
+                        line-height: 40px;
+                    }
+                }
+            }
+            .free-info {
+                display: inline-block;
+                padding: 4px 20px;
+                margin-bottom: 17px;
+            }
+        }
+    }
+
+    .improve-business {
+        .book_wrap {
+            position: relative;
+        }
+
+        img {
+            left: 0px;
+            top: -225px;
+            margin-bottom: 0px;
+        }
+
+        font-family: 'Open Sans',
+        sans-serif;
+
+        .row {
+            margin-bottom: 0px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            max-width: 514px;
+            font-size: 18px;
+            @media only screen and (max-width:767px){
+                font-size: 18px !important;
+            }
+        }
+
+        form {
+            .row {
+                margin-left: -5px;
+                margin-right: -5px;
+            }
+
+            .col-lg-6 {
+                padding-left: 5px;
+                padding-right: 5px;
+                @media only screen and (max-width:575px){
+                    padding:0;
+                }
+            }
+
+            .form-group {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.commonsec-abovefooter{
+    padding-left: 0;
+    padding-right:0;
+    padding-top: 30px;
+    padding-bottom:65px;
+    @media only screen and (max-width:767px){
+        padding-bottom:30px;
+    }
+    h2{
+        font-size: 29px;
+        line-height: 38px;
+        font-weight: 400;
+        padding: 0;
+        margin-bottom: 15px;
+        color: #fff;
+        font-family:"Open Sans", sans-serif;
+        @media only screen and (max-width:1199px){
+            font-size: 24px;
+            line-height: 35px;
+        }
+        br{
+            @media only screen and (max-width:1199px){
+                display: none;
+            }
+        }
+    }
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
+        margin:0;
+        @media only screen and (max-width:767px){
+          font-size: 14px;
+      }
+  }
+}
+
+.whats-happens{
+    text-align: center;
+    padding:85px 0 10px;
+    @media only screen and (max-width:991px){
+        padding:45px 0 0;
+    }
+    @media only screen and (max-width:767px){
+        padding:30px 0 18px;
+    }
+    h2{
+        font-size: 50px;
+        line-height: 50px;
+        color: #2F2F2F;
+        padding:0;
+        margin-bottom: 40px;
+        letter-spacing: 0;
+        font-family:"Open Sans", sans-serif;
+        @media only screen and (max-width:991px){
+            font-size: 40px;
+            line-height: 40px;
+            margin-bottom: 25px;
+        }
+        @media only screen and (max-width:767px){
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+    }
+    .assistant-agency{
+        padding:15px 20px 76px;
+        button{
+            padding:5px 35px;
+            min-height: 118px;
+            font-family:"Open Sans", sans-serif;
+            line-height: 32px;
+            width: 750px;
+            max-width: 100%;
+            @media only screen and (max-width:991px){
+                padding:5px 15px;
+                min-height: 95px;
+                width: 670px;
+                font-size: 26px;
+            }
+            @media only screen and (max-width:767px){
+             font-size: 18px;
+             line-height: 28px;
+             min-height: 82px;
+         }
+         br{
+            @media only screen and (max-width:767px){
+                display: none;
+            }
+
+         }
+     }
+ }
+}
+
+.common-funnel{
+    .funnel{
+        padding: 23px 35px 35px;
+        @media only screen and (max-width:767px){
+          padding:23px 20px 30px;
+      }
+      button{
+        padding:8px 20px;
+        width: 100%;
+        min-height: 82px;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 400;
+        font-family:"Open Sans", sans-serif;
+        @media only screen and (max-width:991px){
+            font-size: 26px;
+            line-height: 30px;
+        }
+        @media only screen and (max-width:767px){
+         font-size: 20px !important;
+         padding:10px !important;
+     }
+ }
+}
+}
+.virtual_toplogo{
+    .virtual_logo{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        @media only screen and (max-width:767px){
+            padding-top:20px;
+            margin-bottom: 0;
+        }
+    }
+}
+.common-parastyle{
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        font-weight: normal;
+        @media only screen and (max-width:767px){
+            font-size: 14px;
+        }
+    }
+}
+
+.common-recent{
+    .section{
+            &-footer{
+                margin-top: 28px;
+                @media only screen and (max-width:767px){
+                    margin-top: 12px;
+                }
+            }
+            &-title{
+                margin-bottom: 49px;
+                @media only screen and (max-width:767px){
+                    margin-bottom: 25px;
+                }
+            }
+        }
+        .card{
+            &-header{
+                padding:49px 0px 12px;
+            }
+            &-body{
+                padding:24px 0px 13px;
+            }
+        }
+}

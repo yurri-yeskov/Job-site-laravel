@@ -1,0 +1,499 @@
+.resumes{
+	padding:25px 15px !important;
+	&.container{
+		@media only screen and (max-width:767px){
+			padding-top:20px !important;
+		}
+	}
+	
+	h2{
+		padding: 0;
+		margin-bottom: 22px;
+		line-height: 22px;
+		font-size: 18px;
+		color: #202124;
+		font-weight: 400;
+		@media only screen and (max-width:767px){
+			margin-bottom: 15px;
+		}
+	}
+	.breadcrumb{
+		padding:0;
+		@media only screen and (max-width:767px){
+			width: 100%;
+			text-align: left !important;
+			margin: 0 0 15px !important;
+		}
+	}
+	.about_company{
+		width: calc(100% - 370px);
+		padding-right:50px;
+		@media only screen and (max-width:1023px){
+			width: 100%;
+			padding-right: 0;
+			padding-left: 0;
+		}
+		p{
+			margin: 0 0 30px;
+			font-size: 15px;
+			line-height: 26px;
+			color:#696969;
+			font-weight: 400;
+			@media only screen and (max-width:1023px){
+				margin: 0 0 25px;
+			}
+			@media only screen and (max-width:767px){
+				margin: 0 0 15px;
+				font-size: 14px;
+			}
+
+		}
+		.aboutjob-block{
+			padding: 0px 0 20px;
+			@media only screen and (max-width:767px){
+				padding:0px 0 20px;
+			}
+		}
+		.job-responsibility{
+			margin: 0 0 50px;
+			ul{
+				li{
+					width: 100%;
+					display: flex;
+					font-size: 15px;
+					color: #696969;
+					margin: 0 0 20px;
+					padding-left: 20px;
+					position: relative;
+					line-height: 25px;
+					@media only screen and (max-width:767px){
+						font-size: 14px;
+						margin: 0 0 15px;
+						padding-left: 16px;
+					}
+					&::after{
+						content: "";
+						position: absolute;
+						left: 0;
+						top: 9px;
+						width: 4px;
+						height: 4px;
+						background: #202124;
+						border-radius: 50px;
+					}
+				}
+			}
+		}
+		.share-job{
+			display: flex;
+			align-items: center;
+			@media only screen and (max-width:767px){
+				flex-wrap: wrap;
+			}
+			.share-text{
+				margin-right:27px;
+				@media only screen and (max-width:767px){
+					margin-right: 0;
+					margin-bottom: 10px;
+					width: 100%;
+				}
+				span{
+					font-size: 16px;
+					line-height: 19px;
+					color: #202124;
+					font-weight: 400;
+				}
+			}
+			ul{
+				display: flex;
+				align-items: center;
+				@media only screen and (max-width:767px){
+					flex-wrap: wrap;
+				}
+				li{
+					margin: 0 5px;
+					@media only screen and (max-width:767px){
+						margin: 0 5px 10px;
+						&:nth-child(1){
+							margin-left: 0;
+						}
+					}
+					a{
+						background: #1967D2;
+						padding: 10px 22px;
+						color: #fff;
+						border-radius: 8px;
+						height: 40px;
+						display: flex;
+						font-size: 14px;
+						align-items: center;
+						@media only screen and (max-width:767px){
+							padding:5px 12px;
+							height: 36px;
+						}
+						svg{
+							fill: #fff;
+							width: 20px;
+							height: 20px;
+							margin-right: 9px;
+							@media only screen and (max-width:767px){
+								width: 16px;
+								height: 16px;
+								margin-right: 6px;
+							}
+						}
+					}
+					&.twitter{
+						a{
+							background:#BC91E8;
+						}
+					}
+					&.google{
+						a{
+							background:#D93025;
+						}
+					}
+				}
+			}
+		}
+		.media-list{
+			ul{
+				margin-bottom: 15px;
+				margin-top: 12px;
+				li{
+					font-size: 14px;
+					@media only screen and (max-width:767px){
+						margin-bottom: 6px;
+					}
+					svg{
+						margin-right: 10px;
+					}
+				}
+			}
+			.media-body{
+				h1{
+					font-size: 18px;
+					padding: 0;
+					line-height: 21px;
+					color: #202124;
+					font-weight: 400;
+					@media only screen and (max-width:767px){
+						font-size: 18px !important;
+						line-height: 24px !important;
+						padding-right: 15px;
+					}
+				}
+				.badge{
+					font-weight: 400;
+					padding: 6px 18px;
+					font-family: "Open Sans", sans-serif !important;
+					font-size: 13px;
+					@media only screen and (max-width:767px){
+						padding:6px 13px;
+						margin-right: 10px;
+					}
+				}
+			}
+			.media {
+				@media only screen and (max-width:767px){
+					padding:26px 22px;
+					margin-bottom: 22px;
+				}
+				img{
+					@media only screen and (max-width:767px){
+						width: 40px;
+						height: 40px;
+					}
+
+				}
+				.bookmark{
+					@media only screen and (max-width:767px){
+						right: 10px;
+					}
+
+				}
+			}
+		}
+		h1.jobs-availbale{
+			margin-top: 35px;
+			padding: 0;
+			margin-bottom: 12px;
+			line-height: 31px;
+			font-size: 26px;
+			color: #000;
+			@media only screen and (max-width:767px){
+				line-height: 30px !important;
+				font-size: 24px !important;
+				margin-bottom: 10px;
+				margin-top: 25px;
+			}
+			+ p{
+				line-height: 18px;
+			}
+		}
+	}
+	.lightbox{
+		width: 370px;
+		max-width: 100%;
+		background: #f5f7fc;
+		padding: 40px 30px;
+		border-radius: 8px;
+		margin-top: -59px;
+		@media only screen and (max-width:1023px){
+			width: 100%;
+			margin-top: 30px;
+		}
+		@media only screen and (max-width:767px){
+			padding:30px 22px 15px;
+		}
+		.job-skills{
+			ul{
+				li{
+					display: inline-block;
+					padding: 5px 15px;
+					background: #fff;
+					border-radius: 4px;
+					margin: 0 4px 10px;
+					font-size: 14px;
+					line-height: 17px;
+					font-weight: 400;
+					color: #696969;
+					font-family: "Open Sans", sans-serif !important;
+					@media only screen and (max-width:767px){
+						padding:5px 10px;
+						font-size: 13px;
+					}
+				}
+			}
+		}
+		.job-overview{
+			padding-bottom:22px;
+			h2.job-overview-title{
+				margin-bottom: 32px;
+				@media only screen and (max-width:767px){
+					margin-bottom: 24px;
+				}
+			}
+			.job-overview-box{
+				display: flex;
+				margin-bottom: 30px;
+				@media only screen and (max-width:767px){
+					margin-bottom: 22px;
+				}
+				.job-overview-icon{
+					width: 40px;
+					padding-top:2px;
+					@media only screen and (max-width:767px){
+						width: 30px;
+					}
+					svg{
+						color: #1967D2;
+					}
+				}
+				.job-overview-text{
+					padding-left:5px;
+					@media only screen and (max-width:767px){
+						padding-left:8px;
+					}
+					h3{
+						padding: 0 0 4px;
+						font-size: 16px;
+						color: #202124;
+						line-height: 19px;
+						font-weight: 400;
+					}
+					p{
+						font-size: 15px;
+						line-height: 26px;
+						margin: 0;
+						color: #696969;
+						font-weight: 400;
+						@media only screen and (max-width:767px){
+							font-size: 14px;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+		}
+		.location{
+			.location-image{
+				position:relative;
+				display: inline-block;
+				.pointer{
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					&.bg-danger{
+						background-color:#FF3365 !important;
+						opacity: 0.3 !important;
+					}
+				}
+			}
+		}
+	}
+	.overview{
+		width: 370px;
+		max-width: 100%;
+		background: #f5f7fc;
+		padding: 30px 30px 10px;
+		border-radius: 8px;
+		@media only screen and (max-width:1023px){
+			width: 100%;
+		}
+		@media only screen and (max-width:1023px){
+			padding:24px 22px 10px;
+		}
+		.row{
+			margin: 0 0 20px;
+			@media only screen and (max-width:1023px){
+				margin: 0 0 16px !important;
+				flex-wrap: nowrap;
+			}
+			.col-md-7{
+				padding:0;
+			}
+			.col-md-5{
+				padding:0;
+			}
+		}
+		p{
+			font-size: 15px;
+			font-weight: 400;
+			color: #696969;
+			margin: 0;
+			@media only screen and (max-width:767px){
+				font-size: 14px;
+			}
+		}
+		h3{
+			color: #202124;
+			padding:0;
+			font-size: 16px;
+			font-weight: 400;
+			@media only screen and (max-width:767px){
+				font-size: 15px;
+			}
+		}
+		.invisionview-profile{
+			display: flex;
+			margin: 0 0 20px;
+			align-items: center;
+			.invisiion-block{
+				span{
+					display: block;
+					width: 60px;
+					height: 60px;
+					background: #FF3365;
+					border-radius: 8px;
+				}
+			}
+			.invision-text{
+				padding:0 0 0 18px;
+				h2{
+					margin-bottom: 4px;
+				}
+				p{
+					a{
+						color: #1967D2;
+					}
+				}
+			}
+		}
+	}
+	.d-flex{
+		&.flex-row{
+			@media only screen and (max-width:1023px){
+				display: block !important;
+			}
+		}
+	}
+}
+.job-banner{
+	padding:70px 0;
+	@media only screen and (max-width:1023px){
+		flex-wrap: wrap;
+		padding:50px 0;
+	}
+	@media only screen and (max-width:767px){
+		padding:30px 0px 20px;
+	}
+
+	.media{
+		@media only screen and (max-width:1023px){
+			width: 100%;
+			margin: 0 0 25px;
+		}
+		@media only screen and (max-width:767px){
+			margin: 0 0 10px;
+		}
+
+		.bg-danger{
+			background: #FF3365 !important;
+			@media only screen and (max-width:767px){
+				width: 60px !important;
+				height: 60px !important;
+			}
+
+		}
+		h1{
+			font-size: 26px;
+			padding:0;
+			line-height: 31px;
+			color: #202124;
+			@media only screen and (max-width:767px){
+				font-size: 20px !important;
+				line-height: 26px !important;
+			}
+
+		}
+		.badge{
+			padding: 8px 20px;
+			font-weight: 400;
+			font-family: "Open Sans", sans-serif !important;
+			font-size: 13px;
+			@media only screen and (max-width:767px){
+				margin-bottom: 8px;
+				margin-right: 6px;
+			}
+
+		}
+		ul{
+			margin: 12px 0 12px;
+			li{
+				font-size: 14px;
+				@media only screen and (max-width:767px){
+					margin-bottom: 10px;
+				}
+				svg{
+					margin-right: 9px;
+				}
+			}
+		}
+	}
+	.media-action{
+		button{
+			@media only screen and (max-width:767px){
+				height: 46px;
+				width: 180px;
+			}
+
+		}
+	}
+	.container{
+		display: flex;
+		align-items:center;
+		@media only screen and (max-width:1023px){
+			flex-wrap: wrap;					
+		}		
+	}
+}
+
+.company-profile{
+	.overview{
+		margin-top:-57px;
+		@media only screen and (max-width:1023px){
+			margin-top: 30px;
+		}
+	}
+}

@@ -1,0 +1,304 @@
+.worker-banner{
+	padding:70px 0;
+	@media only screen and (max-width:1023px){
+		padding:50px 0px;
+		flex-wrap: wrap;
+	}
+	@media only screen and (max-width:767px){
+       padding:30px 0px 20px;
+	} 
+	.media{
+	  @media only screen and (max-width:1023px){
+            width: 100%;
+            margin: 0 0 25px;
+	   }
+	  @media only screen and (max-width:767px){
+            margin: 0 0 15px;
+	  }
+		h1{
+			font-size: 26px;
+			padding: 0;
+			line-height: 31px;
+			color: #202124;
+		}
+		ul{
+			margin: 12px 0 12px;
+			li{
+	        @media only screen and (max-width:1023px){
+                font-size: 14px !important;
+	         }
+	        @media only screen and (max-width:767px){
+                 margin-bottom: 10px;
+	        }
+				svg{
+					margin-right: 9px;
+				}
+			}
+		}
+		.badge{
+			padding: 8px 20px;
+			font-weight: 400;
+			font-family: "Open Sans", sans-serif !important;
+			font-size: 13px;
+	        @media only screen and (max-width:767px){
+              padding:7px 18px;
+              margin-right: 6px;
+              margin-bottom: 8px;
+	        }
+		}
+		img{
+	        @media only screen and (max-width:767px){
+	        	width: 80px;
+	        }
+
+		}
+	}
+	.media-action{
+		button{
+	        @media only screen and (max-width:767px){
+                width: 180px;
+                height: 46px;
+	        }
+		}
+	}
+	.container{
+		display: flex;
+		align-items:center;
+	        @media only screen and (max-width:1023px){
+                flex-wrap: wrap;
+	        }
+	}
+}
+
+.worker-page{
+	.exp-edu-block{
+		display: flex;
+		padding-top: 20px;
+			@media only screen and (max-width:767px){
+				flex-wrap: wrap;
+			}
+		.experience-history{
+			width: 50%;
+			padding-right:20px;
+			@media only screen and (max-width:767px){
+				width: 100%;
+				padding-right:0;
+			}
+			.edu-item{
+				&::before{
+					display: none;
+				}
+				margin-bottom: 40px;
+			@media only screen and (max-width:767px){
+				margin-bottom: 30px;
+			}
+			}
+			.badge{
+				&.color-blue{
+					background: rgba(25 103 210 / 15%) !important;
+					font-size: 13px;
+					font-weight: 500;
+					display: flex;
+					align-items: center;
+					font-family: "Open Sans", sans-serif !important;
+					border-radius: 60px;
+					padding: 3px 15px;
+					color: #1967D2 !important;
+				}
+			}
+			h4{
+				color: #1967D2 !important;
+			}
+			ul{
+				padding-top:18px;
+			@media only screen and (max-width:767px){
+				padding-top:0px;
+			}
+				li{
+					font-size: 15px;
+					line-height: 26px;
+					color: #696969;
+					font-weight: 400;
+					font-family: "Open Sans", sans-serif !important;
+					display: flex;
+					width: 100%;
+					position: relative;
+					padding-left: 19px;
+					margin-bottom: 5px;
+					&::before{
+						content: "";
+						position: absolute;
+						left: 0;
+						width: 10px;
+						height: 1px;
+						background: #696969;
+						top: 13px;
+					}
+			     @media only screen and (max-width:767px){
+			     	 font-size: 14px;
+			     }
+				}
+			}
+		} 
+		.education-history{
+			width: 50%;
+			padding-left:50px;
+			@media only screen and (max-width:767px){
+				width: 100%;
+				padding-left:0;
+			}
+			.edu-item{
+				margin-bottom: 40px;
+				&::before{
+					display: none;
+				}
+			}
+			.badge{
+				&.color-red{
+					font-size: 13px;
+					font-weight: 500;
+					display: flex;
+					align-items: center;
+					font-family: "Open Sans", sans-serif !important;
+					border-radius: 60px;
+					padding: 3px 15px;
+					color: #D93025 !important;
+				}
+			}
+			ul{
+				padding-top:18px;
+				@media only screen and (max-width:767px){
+					padding-top: 0px;
+				}
+				li{
+					font-size: 15px;
+					line-height: 26px;
+					color: #696969;
+					font-weight: 400;
+					font-family: "Open Sans", sans-serif !important;
+					display: flex;
+					width: 100%;
+					position: relative;
+					padding-left: 19px;
+					margin-bottom: 5px;
+					&::before{
+						content: "";
+						position: absolute;
+						left: 0;
+						width: 10px;
+						height: 1px;
+						background: #696969;
+						top: 13px;
+					}
+				}
+			}
+		}
+		h2{
+			margin-bottom: 28px;
+		}
+		h3{
+			line-height: 19px;
+			padding: 0 0 9px;
+		}
+	}
+	.lightbox{
+		margin-bottom: 85px;
+		@media only screen and (max-width:1023px){
+			margin-bottom: 0;
+		}
+
+		h1{
+			padding: 0;
+			margin-bottom: 40px;
+			line-height: 22px;
+		@media only screen and (max-width:767px){
+			font-size: 18px !important;
+			margin-bottom: 15px;
+		}
+		}
+		button{
+			border-radius: 8px;
+			height: 50px;
+			font-size: 15px;
+			font-family: "Open Sans", sans-serif !important;
+		@media only screen and (max-width:767px){
+			height: 46px;
+		}
+		}
+		.overview{
+			padding:0;
+			margin: 0;
+			ul{
+				li{
+					margin-bottom: 24px;
+						@media only screen and (max-width:767px){
+							margin-bottom: 22px;
+						}
+					&:last-child{
+						margin: 0;
+						@media only screen and (max-width:767px){
+							margin-bottom: 20px;
+						}
+					}
+					.overview-blk{
+						margin-top: -5px;
+					}
+					svg{
+						@media only screen and (max-width:767px){
+							margin-right: 18px;
+						}
+
+					}
+				}
+			}
+		}
+	}
+	.view-refrence{
+		margin-bottom: 50px;
+		@media only screen and (max-width:1023px){
+			margin-bottom: 10px;
+		}
+		@media only screen and (max-width:767px){
+			margin-bottom: 30px;
+		}
+		button{
+			width: 330px !important;
+			height: 50px;
+			border-radius:8px;
+			font-size: 15px;
+			max-width: 100%;
+		@media only screen and (max-width:767px){
+            height: 46px;
+		}
+		}
+	}
+	.creator{
+		margin-bottom: 45px;
+		@media only screen and (max-width:767px){
+			margin-bottom: 35px;
+		}
+		h2{
+			margin-bottom: 14px;
+		@media only screen and (max-width:767px){
+			margin-bottom: 10px;
+		}
+		}
+		.creator-location{
+			margin-bottom: 27px;
+			font-size: 14px;
+			line-height: 17px;
+		@media only screen and (max-width:767px){
+			margin-bottom: 18px;
+		}
+		}
+		p{
+			font-size: 15px;
+			line-height: 19px;
+			text-align: left;
+			margin: 0;
+		@media only screen and (max-width:767px){
+			font-size: 14px;
+		}
+		}
+	}
+}

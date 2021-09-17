@@ -1,0 +1,145 @@
+/* About Page design */
+.about_page {
+    margin-top: -30px;
+    h2 {
+        padding: 0px;
+    }
+
+    .bg_img {
+        @media only screen and (max-width:767px){
+            padding:130px 0 !important;
+        }
+        h1 {
+            font-weight: 700;
+        }
+    }
+    .section{
+        &-title {
+            margin-top: 70px;
+            margin-bottom: 46px;
+            @media only screen and (max-width:767px){
+                margin-top: 30px;
+                margin-bottom: 16px;
+            }
+        }
+        &-body{
+            p {
+                font-size: 16px !important;
+                line-height: 28px;
+
+                @media only screen and (max-width: 767px) {
+
+                    font-size: 14px !important;
+                    line-height: 24px;
+                    
+                }
+            }
+        }
+        &-footer{
+            h2 {
+                font-size: 50px;
+                font-weight: 500;
+                margin-top: 0px;
+                line-height: normal;
+                font-family: "Open Sans", sans-serif;
+
+                @media only screen and (max-width: 767px) {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .section-community{
+        .section-body{
+            p{
+                 @media only screen and (max-width:767px){
+                    margin-bottom: 16px;
+                 }  
+            }
+        }
+    }
+   .funnel{
+      @media only screen and (max-width:767px){
+        margin-bottom: 30px !important;
+      }
+   }
+   .btn.next_btn{
+      @media only screen and (max-width:767px){
+        padding:0 18px;
+      }
+      svg{
+         @media only screen and (max-width:767px){
+            width: 50px;
+            height: 50px;
+         }
+      }
+   }
+}
+
+.section-community .section-body p {
+    margin-bottom: 76px;
+    text-align: justify;
+}
+
+.section.online-home.jobs {
+    padding: 30px 0px 50px;
+
+    p {
+        max-width: 991px;
+        margin: 0 auto;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .section-title {
+        margin-bottom: 15px;
+        margin-top: 0px;
+        font-weight: normal;
+        font-size: 29px;
+        line-height: 38px;
+        color: #fff;
+    }
+}
+.virtual_workers .text-content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: justify;
+    margin-bottom: 0px;
+    @media only screen and (max-width:767px){
+        font-size: 16px !important;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+}
+.section .funnel {
+    margin: 0px;
+    padding: 63px 35px 35px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 81px;
+    margin-top: 10px;
+
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 36px;
+        @media only screen and (max-width: 767px) {
+            font-size: 30px;
+        }
+    }
+
+    button {
+        line-height: normal;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0px 30px;
+        min-height: 82px;
+    }
+}
+#page_wrap{
+    #aboutpage{
+    }
+}

@@ -1,0 +1,399 @@
+.font-icon{
+	color: #FB236A;
+	height: 10px;
+    width: 24px;
+}
+.signup-heading{
+	font-family: Montserrat;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 44px;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.signup-heading img{
+	width: 303px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#quickSignup .modal-dialog, #quickSignupAll .modal-dialog,#quickEmployerSignup .modal-dialog, #socialFillSignup .modal-dialog, #quickLogin .modal-dialog, #fPassword .modal-dialog, #fPasswordConfirm .modal-dialog, #quickEmployerHomeSignup .modal-dialog{
+	max-width: 460px;
+}
+#quickSignup .modal-header, #quickSignupAll .modal-header,#quickEmployerSignup.modal-header, #socialFillSignup .modal-header, #quickLogin .modal-header, #fPassword .modal-header, #fPasswordConfirm .modal-header, #quickEmployerHomeSignup .modal-header{
+	background: #fff;
+	border: unset;
+}
+#quickSignup .modal-header button, #quickSignupAll .modal-header button, #quickEmployerSignup.modal-header button, #socialFillSignup .modal-header button, #quickLogin .modal-header button, #fPassword .modal-header button, #fPasswordConfirm .modal-header button, #quickEmployerHomeSignup .modal-header button{
+	background: #FB236A;
+    opacity: 1;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #fff;
+}
+.signup-wrap , .signup-code-wrap{
+	padding: 0 4em;
+}
+.signup-code-wrap{
+	padding: 0 5em;
+	margin-top: 2em;
+}
+.ver-code-wrap{
+	padding: 0 6em;
+}
+
+.signup-wrap .form-control::placeholder , .ver-code-wrap .form-control::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #888888;
+    opacity: 1; /* Firefox */
+    font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.signup-wrap .form-control:-ms-input-placeholder, .ver-code-wrap .form-control:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+    color: #888888;
+    font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.signup-wrap .form-control::-ms-input-placeholder , .ver-code-wrap .form-control::-ms-input-placeholder{ /* Microsoft Edge */
+    color: #888888;
+    font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+.btn-custom{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	color: #FFFFFF;
+	background: #141F72;
+	width: 100%;
+	border-radius: 8px;
+}
+.signup-wrap .form-control:focus, .ver-code-wrap .form-control:focus{
+	border: 2px solid #FB236A;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+}
+.signup-wrap .form-control, .ver-code-wrap .form-control{
+	border: 2px solid #E8ECEC;
+	height: 55px;
+	box-sizing: border-box;
+	border-radius: 8px !important;
+}
+.signup-wrap .show-pwd , .ver-code-wrap .show-pwd{
+    top: 15px;
+    right: 8px;
+}
+.signup-wrap .social-icon{
+	font-size: 28px;
+}
+
+.signup-wrap .signupOr{
+    position: relative;
+    font-size: 18px;
+    color: #AFAFAF;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+.signup-wrap .signupOr .hrOr{
+	height: 1px;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+.signupLogin a{
+	text-decoration: none;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #202020;
+}
+.signupLogin{
+	text-align: center;
+}
+.btn-user-type{
+	width: 100%;
+	background: #fff;
+	border-radius: 5px;
+	border: 2px solid #202020;
+	box-sizing: border-box;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #202020;
+}
+.btn-selcted{
+	background: #202020;
+	color: #fff;
+}
+/**/
+.social-icon-main ul {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 0 10px;*/
+}
+.social-icon-main ul li {
+    display: inline-block;
+    margin: 0 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.social-icon-main ul li a {
+    border-radius: 5px;
+}
+.signup-wrap .input-img, .signup-wrap .input-img-city{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.signup-wrap .input-img{
+	width: 22px;
+    margin-right: 2px;
+}
+.signup-wrap .input-img-city{
+	margin-right: 7px;
+}
+.signup-wrap .input-img-city{
+	height: 18px;
+}
+.input-img-lock{
+	width: 15px;
+	display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 2px;
+}
+.input-imglock{
+	width: 16px;
+	display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+#quickSignup .signup-f, #quickSignup .signup-fa, #quickSignupAll .signup-f, #quickSignupAll .signup-fa, #fPasswordConfirm .signup-f, #fPasswordConfirm .signup-fa, #quickEmployerHomeSignup .signup-f, #quickEmployerHomeSignup .signup-fa{
+	text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+}
+#quickSignup .signup-f, #quickSignupAll .signup-f, #fPasswordConfirm .signup-f, #quickEmployerHomeSignup .signup-f{
+	color: #888888;
+}
+#quickSignup .signup-fa, #quickSignupAll .signup-fa, #fPasswordConfirm .signup-fa, #quickEmployerHomeSignup .signup-fa{
+	color: #FB236A;
+	margin-top: 10px;
+}
+.signup-code-wrap .alert-e{
+	background: #D4EDDA;
+	border: 2px solid #D4EDDA;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 2.5em;
+}
+.signup-code-wrap .alert-remail{
+	color: #202020;
+	background: #FFF3CD;
+	border: 2px solid #FFF3CD;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 2.5em;
+}
+.signup-code-wrap .alert-remail div, .signup-code-wrap .alert-remail .resend-mail{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	/*display: flex;*/
+	align-items: flex-end;
+	text-align: center;
+}
+.signup-code-wrap .alert-remail div{
+	color: #202020;
+}
+.signup-code-wrap .alert-remail .resend-mail{
+	color: #888888;
+	width: 100%;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.ver-code-wrap .form-control::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #202020;
+    opacity: 1; /* Firefox */
+    font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.ver-code-wrap .form-control:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+    color: #202020;
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.ver-code-wrap .form-control::-ms-input-placeholder{ /* Microsoft Edge */
+    color: #202020;
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.btn-yw{
+	background: #81348F;
+}
+span.resend-mail:hover {
+    text-decoration: underline;
+}
+.signup-three{
+	margin-bottom: 3em;
+}
+
+#city_w, #city_a, #city_s, #emp_city{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.city_place{
+	color: #888888;
+    opacity: 1; /* Firefox */
+    font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+#quickLogin .custom-control-label{
+	padding: 7px 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+}
+#quickLogin .custom-control-label::before{
+	/*top: 0px;*/
+    left: -1.5rem;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #888888;
+    border-radius: 3px;
+}
+#quickLogin .custom-control-label::after {
+    /*top: 0px;*/
+    left: -1.5rem;
+    width: 25px;
+    height: 25px;
+}
+.custom-control-label::before{
+	background-color: #fff;
+}
+#quickLogin .f-pass a{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 30px;
+	color: #FB236A;
+}
+
+#quickLogin .signup-wrap .signupOr .spanOr{
+	width: 110px;
+	margin-left: -56px;
+}
+
+.country-wrap, .city-wrap{
+	position: relative;
+	display: none;
+}
+.country-list-data, .city-list-data {
+    list-style: none;
+    max-height: 236px;
+    overflow-y: auto;
+    margin-top: 4px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: #FFFFFF;
+	border: 2px solid #E8ECEC;
+}
+.country-list-data li, .city-list-data li {
+	display: block;
+	padding: 10px;
+}
+.country-list-data li:hover, .city-list-data li:hover  {
+    background: #E8ECEC;
+	cursor: pointer;
+}
+
+
+/*responsive css*/
+
+@media only screen and (max-width: 767px) {
+	.signup-wrap{
+		padding: 0 10px;
+	}
+	.signup-code-wrap, .ver-code-wrap{
+		padding: 0 20px;
+	}
+  	.signup-wrap .form-group, .signupOr, .ver-code-wrap .form-group{
+  		margin-bottom: 15px !important;
+  	}
+  	.signupLogin{
+  		margin-top: 15px !important;
+  	}
+  	.btn-user-type{
+  		margin-top: 15px !important;
+  	}
+}
+
+@media only screen and (max-width: 480px) {
+	.social-icon-main ul {
+		/*padding: 0px;*/
+	}
+	.social-icon-main ul li{
+		margin: 0px;
+	}
+}
+
+

@@ -1,0 +1,54 @@
+.main-containers .banner {
+    padding-top: 60px;
+    height: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 767px) {
+        height: 475px;
+    }
+
+
+
+    button.banner-btn {
+        margin-top: unset !important;
+        border: none !important;
+        padding: 14px 18px;
+        text-align: left;
+        font-size: 15px !important;
+        width: 100%;
+        min-width: 389px;
+        font-weight: 700;
+        letter-spacing: normal;
+        
+        @media only screen and (max-width: 980px) {
+            font-size: 14px !important;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            width: auto;
+            margin: 0 auto 10px;
+        }
+        @media only screen and (max-width: 767px) {
+             min-width: 100%;
+        } 
+        
+        svg {
+            width: auto;
+            max-width: 50px;
+            max-height: 50px;
+            margin-right: 10px;
+            @media only screen and (max-width:767px){
+                max-width: 40px;
+                max-height: 40px;
+            }
+        }
+        img{
+            margin-right: 10px;
+        }
+    }
+}
+.h-spacer{
+    padding:0;
+}

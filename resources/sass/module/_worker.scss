@@ -1,0 +1,250 @@
+.employers_page{
+	padding-top:30px;
+			@media only screen and (max-width: 767px){
+                  padding-top:0;
+			}
+	&.worker_page{
+		.worker_pg{
+			padding-right:43px;
+			@media only screen and (max-width: 1199px){
+				padding-right:30px;
+			}
+			@media only screen and (max-width: 767px){
+                padding-right:0;
+                padding-left:0; 
+			}
+		}
+		.worker-image{
+			@media only screen and (max-width: 1199px){
+                padding-right:15px !important;
+			}
+		}
+		.funnel{
+			margin: 68px 0 43px;
+			&.review_order{
+				margin: 30px 0 150px;
+				padding: 60px 20px 36px;
+			@media only screen and (max-width: 1199px){
+				margin: 30px 0 80px;
+			}
+			@media only screen and (max-width: 767px){
+                padding:30px 20px 28px;
+			}
+				button{
+					font-size: 18px;
+					line-height: 26px;
+					border-radius: 3px;
+					min-height: 138px;
+					width: 690px;
+					max-width: 100%;
+					@media only screen and (max-width: 1199px){
+						min-height: 120px;
+					}
+					@media only screen and (max-width: 767px){
+                        font-size: 16px !important;
+					}
+					span{
+						float: left;
+						width: 100%;
+						font-size: 30px;
+						line-height: 43px;
+					@media only screen and (max-width: 767px){
+                          font-size: 24px;
+                          line-height: 29px;
+					}
+					}
+				}
+			}
+		}
+		.recent-jobs{
+			.row{
+				margin: 0;
+			}
+		}
+		.virtual-price {
+			.pricing_comp{
+				padding:56px 0px 30px;
+				h2{
+					margin-bottom: 69px;
+					@media only screen and (max-width:1199px){
+						margin-bottom: 40px;
+					}
+				}
+				p{
+					line-height: 28px;
+				}
+				ul{
+					li{
+						align-items:flex-start;
+						margin-bottom: 32px;
+						text-align: justify;
+						line-height: 28px;
+					@media only screen and (max-width:767px){
+                        margin-bottom: 18px;
+					}
+						svg{
+							width: 20px;
+							margin-top: 8px;
+							min-width: 20px;
+						}
+					}
+				}
+			}
+		}
+		.create_vita{
+			&.assistant-agency{
+				padding:65px 0 80px;
+					@media only screen and (max-width:1199px){
+						padding:50px 0 60px;
+					}
+					@media only screen and (max-width:767px){
+                        padding:30px 20px 40px !important;
+					}
+				h2{
+					padding:0;
+					margin-bottom: 47px;
+					@media only screen and (max-width:1199px){
+						margin-bottom: 30px;
+						font-size: 26px;
+						line-height: 36px;
+					}
+					@media only screen and (max-width:767px){
+                        font-size: 24px;
+                        line-height: 32px;
+                        margin-bottom: 10px;
+					}
+				}
+				.virtual_logo{
+					margin: 0;
+					width: 100%;
+					img{
+						max-width: 350px;
+						margin: 0 auto 60px;
+					@media only screen and (max-width:1199px){
+						margin: 0 auto 40px;
+					}
+					@media only screen and (max-width:767px){
+                        width: 100%;
+                        margin: 0;
+					}
+					}
+				}
+				.virtual_workers{
+					padding-left:40px;
+					padding-right:25px;
+					@media only screen and (max-width:767px){
+						padding-left:0;
+						padding-right:0;
+					}
+					p{
+					@media only screen and (max-width:767px){
+						font-size: 14px;
+					}
+
+					}
+				}
+				.online_position{
+					padding-right:40px;
+					padding-left:25px;
+					@media only screen and (max-width:767px){
+						padding-left:0;
+						padding-right:0;
+					}
+					p{
+					@media only screen and (max-width:767px){
+						font-size: 14px;
+					}
+
+					}
+				}
+				h2.single_pay{
+					font-size: 50px;
+					line-height: 50px;
+					margin: 0 0 20px;
+					color: #2f2f2f;
+					font-weight: 400;
+					@media only screen and (max-width:1199px){
+						font-size: 40px;
+						line-height: 42px;
+					}
+					@media only screen and (max-width:767px){
+                         font-size: 26px;
+                         line-height: 28px;               
+					}
+				}
+				.single-paybtn{
+					padding:10px 70px;
+					font-size: 28px;
+					line-height: 32px;
+					min-height: 82px;
+					@media only screen and (max-width:1199px){
+						font-size: 25px;
+						line-height: 30px;
+						padding:10px 50px;
+					}
+					@media only screen and (max-width:767px){
+                         font-size: 18px;
+                         line-height: 26px;
+                         padding:8px 20px;
+					} 
+				}
+				.container.container-3{
+					@media only screen and (max-width:767px){
+                        padding:0;
+					} 
+                   .col-md-12.col-sm-12{
+                   	 @media only screen and (max-width:767px){
+                        padding:0;
+					 } 
+                   }
+				}
+			}
+			
+		}
+		.carrer-goals{
+			padding:80px 0 40px;
+			@media only screen and (max-width:1199px){
+				padding:50px 0 20px;
+			}
+			@media only screen and (max-width:767px){
+               padding:30px 0 10px;
+			}
+			p{
+				color: #000;
+				font-size: 16px;
+				line-height: 28px;
+				font-weight: 400;
+				margin: 0 0 30px;
+			@media only screen and (max-width:767px){
+                font-size: 15px;
+                margin: 0 0 20px;
+			}
+			}
+			ul{
+				li{
+					font-size: 16px;
+					line-height: 28px;
+					color: #000;
+					font-weight: 400;
+					margin: 0 0 30px;
+					text-align: justify;
+					display: flex;
+					align-items: flex-start;
+						@media only screen and (max-width:767px){
+							font-size: 14px;
+							margin: 0 0 20px;
+						}
+					svg{
+						width: 20px;
+						margin-right: 13px;
+						margin-top: 8px;
+						min-width:20px;
+						@media only screen and (max-width:767px){
+							margin-right: 8px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
